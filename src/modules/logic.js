@@ -136,7 +136,7 @@ function taskformPopup() {
     newtask_button.addEventListener('click', function() {
 
         if (categoryList.length === 0) {
-            alert("Category banau na hau paile Guleswor");
+            alert("Make Category First");
         } else if (!document.querySelector('.category-link.active')) {
             alert("Select the category you want to add tasks in");
         } else {

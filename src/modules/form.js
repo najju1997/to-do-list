@@ -171,7 +171,7 @@ function taskForm_f() {
         opt.setAttribute('value', option);
         opt.textContent = option;
         select.append(opt);
-    });
+    }); 
 
     formItem4.append(select);
 
